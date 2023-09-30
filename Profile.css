@@ -1,0 +1,149 @@
+.navbar
+{
+    padding: 1rem 3rem;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 700;
+}
+#menu li,.brand
+{
+    text-align: center;
+    padding: 0rem 1.5rem;
+}
+#menu li:hover
+{
+    background-color: rgb(211, 210, 210);
+}
+.home
+{
+    text-align: center;
+    padding:12rem 8rem;
+}
+.name
+{
+    font-weight: 700;
+    font-size:3rem;
+}
+.home button,.skill button ,.input button{
+    border: 0px;
+    color: white;
+    background-color: rgb(136, 0, 255);
+    padding: 10px 40px;
+    font-weight: 700;
+    font-size: large;
+    border-radius: 5px;
+    margin: 5px;
+}
+.home div
+{
+    padding: 2%;
+}
+.skill button:hover
+{
+    background-color: rgb(0, 0, 0);
+}
+.home button:hover{
+    background-color: white;
+    color: black;
+}
+.common
+{
+    padding: 8rem 10rem;
+    text-align: center;
+}
+.title
+{
+    font-size: xx-large;
+    font-weight: 700;
+    padding: 2rem;
+}
+.home ,.cont{
+    background:url(https://wallpaperaccess.com/full/569801.jpg);
+}
+#about
+{
+    background-color: rgb(222, 222, 222);
+}
+.skill img
+{
+    width: 100%;
+}
+.info
+{
+    padding: 3%;
+    text-align: center;
+}
+.tit-1
+{
+    padding-top: 5%;
+    text-align: center;
+    font-weight: 700;
+    font-size: xx-large;
+}
+.skill
+{
+    text-align: center;
+}
+
+.fom-1
+{
+    text-align: center;
+    padding:2%;
+}
+.form
+{
+   padding:2% 25%;
+   background:url(https://wallpaperaccess.com/full/569801.jpg);
+}
+.input
+{
+    padding:50px 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+input{
+    height: 50px;
+    margin: 20px ;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgb(230, 229, 229);
+}
+.des
+{
+    height: 250px;
+}
+.input div
+{
+    font-weight: 500;
+}
+div svg
+{
+    margin:10px
+}
+footer{
+    background-color: black;
+}
+.foo
+{
+    margin-top: 1px;
+    background-color: black;
+    text-align: center;
+}
+.a button
+{
+    background-color: rgb(102, 102, 102);
+}
+@media (max-width:790px) {
+    .home{
+        padding:10rem 2rem;
+    }
+    .common{
+        padding: 3rem;
+    }
+    .form
+    {
+        padding: 1rem;
+    }
+}
